@@ -1,3 +1,7 @@
 package main
 
-func main() {}
+import "github.com/hey-granth/filegoblin/cmd"
+
+func main() {
+	cmd.Execute()
+}
